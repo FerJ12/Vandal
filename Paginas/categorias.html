@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/estilos.css">
     <title>Categorías</title>
 </head>
@@ -25,7 +26,7 @@
         </nav>
     </header>
 <main id="cate">
-    <section class="grid_jackets">
+    <section data-aos="flip-left"class="grid_jackets">
         <h1 class="titulos"> Jackets</h1>
         <div class="grid_layout flex_container_cate">
             <div>
@@ -47,7 +48,7 @@
         </div>
     </section>
 
-    <section class="grid_pants">
+    <section data-aos="flip-left"class="grid_pants">
         <h1 class="titulos"> Pants</h1>
         <div class="grid_layout flex_container_cate grid_pants">
             <div>
@@ -69,7 +70,7 @@
         </div>
     </section>
 
-    <section class="grid_hats">
+    <section data-aos="flip-left" class="grid_hats">
         <h1 class="titulos"> Hats</h1>
         <div class="grid_layout flex_container_cate">
             <div>
@@ -98,5 +99,9 @@
             <h2 class="texto_footer">Ubicación</h2>
         </div>
     </footer>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
