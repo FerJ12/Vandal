@@ -1,0 +1,24 @@
+*{
+    font-family: 'Aboreto', cursive;
+}
+
+#menu{
+    color: white;
+}
+
+.texto{
+    font-weight: bold;
+}
+
+.card{
+    padding: 0;
+}
+.container{
+    width: 500px;
+}
+
+#footer{
+    height: 10vh;
+    align-items: center;
+    color: white;
+}
