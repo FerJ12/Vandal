@@ -2,8 +2,13 @@
     font-family: 'Aboreto', cursive;
 }
 
+body{
+    background-color: #b5bac98c;
+}
+
 #menu{
     color: white;
+    font-weight: lighter;
 }
 
 .texto{
@@ -13,6 +18,7 @@
 .card{
     padding: 0;
 }
+
 .container{
     width: 500px;
 }
@@ -21,4 +27,40 @@
     height: 10vh;
     align-items: center;
     color: white;
+}
+
+.just{
+    align-items: center;
+
+}
+
+.borroso:hover{
+    filter: blur(4px);
+    transition: all 1s;
+}
+
+.map{
+    margin-top: 2rem;
+    width: 100%;
+    height: 430px;
+}
+
+/* .gap{
+    height: 40px;
+} */
+
+@media (max-width: 900px){
+    .just{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 900px){
+    .contact{
+        flex-direction: column;
+    }
 }
