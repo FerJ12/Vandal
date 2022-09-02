@@ -1,0 +1,10 @@
+header {
+    nav {
+        @extend .nav-link;
+        font-weight: lighter;
+    }
+}
+
+.nav-link{
+    color: white;
+}

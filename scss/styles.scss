@@ -1,0 +1,13 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './footer';
+@import './medias';
+
+* {
+    font-family: 'Aboreto', cursive;
+}
+
+body {
+    background-color: $color-fondo;
+}
