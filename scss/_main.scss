@@ -10,10 +10,7 @@ main{
     }
     div{
         article{
-            &:hover{
-                filter: blur(4px);
-                transition: all 1s;
-            }
+            @include blured;
         }
     }
 }

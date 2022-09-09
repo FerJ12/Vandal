@@ -1,13 +1,17 @@
+@import './mixins';
+
+* {
+    @include reset;
+}
+
 @import './variables';
 @import './header';
 @import './main';
 @import './footer';
 @import './medias';
 
-* {
-    font-family: 'Aboreto', cursive;
+body{
+    background-color: lightgray;
 }
-
-body {
-    background-color: $color-fondo;
-}
+@include fondo-query(rgba(128, 128, 128, 0.856),desktop);
+@include fondo-query(rgba(255, 192, 203, 0.582),mobile);
