@@ -1,7 +1,13 @@
+ @media (max-width: 900px){ 
+     .img{
+         width: 100%;
+         height: auto;
+         margin-top: 2rem;
+     }
+}
+
 @media (max-width: 900px){
-    .img{
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
+    .contact{
+        flex-direction: column;
     }
 }

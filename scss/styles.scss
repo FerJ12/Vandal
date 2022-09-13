@@ -7,11 +7,9 @@
 @import './variables';
 @import './header';
 @import './main';
-@import './footer';
+@import './footer'; 
 @import './medias';
 
 body{
     background-color: lightgray;
 }
-@include fondo-query(rgba(128, 128, 128, 0.856),desktop);
-@include fondo-query(rgba(255, 192, 203, 0.582),mobile);

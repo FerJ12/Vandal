@@ -6,19 +6,46 @@
 header nav {
   font-weight: lighter; }
 
-.nav-link, header nav {
+#nav-link, header nav {
   color: white; }
 
 main h2 {
   text-align: center;
   font-weight: bold; }
 
-main div p {
-  font-weight: bold; }
-
 main div article:hover {
   filter: blur(4px);
   transition: all 1s; }
+
+.bold, main div p {
+  font-weight: bold; }
+
+.card {
+  padding: 0; }
+
+.borroso:hover {
+  filter: blur(4px);
+  transition: all 1s; }
+
+.map {
+  margin-top: 2rem;
+  width: 100%;
+  height: 430px; }
+
+.btn {
+  background-color: #147a7a;
+  border-color: white; }
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+  border-color: #147a7a; }
+
+.card-title {
+  text-align: center;
+  font-weight: bold; }
+
+.form {
+  justify-content: center; }
 
 footer div {
   display: flex;
@@ -34,13 +61,9 @@ footer div {
     height: auto;
     margin-top: 2rem; } }
 
+@media (max-width: 900px) {
+  .contact {
+    flex-direction: column; } }
+
 body {
   background-color: lightgray; }
-
-@media only screen and (max-width: 1024px) {
-  body {
-    background-color: rgba(128, 128, 128, 0.856); } }
-
-@media only screen and (max-width: 576px) {
-  body {
-    background-color: rgba(255, 192, 203, 0.582); } }

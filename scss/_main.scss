@@ -5,7 +5,7 @@ main{
     }
     div{
         p{
-            font-weight: bold;
+            @extend .bold;
         }
     }
     div{
@@ -15,3 +15,41 @@ main{
     }
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.card{
+    padding: 0;
+}
+
+.borroso:hover{
+    filter: blur(4px);
+    transition: all 1s;
+}
+
+.map{
+    margin-top: 2rem;
+    width: 100%;
+    height: 430px;
+}
+
+.btn{
+    background-color: rgb(20, 122, 122);
+    border-color: white;
+    
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+    border-color: rgb(20, 122, 122);
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.form{
+    justify-content: center;
+}
